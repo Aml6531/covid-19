@@ -1,0 +1,431 @@
+/* FONTS */
+
+@font-face {
+    font-family: Gelion-700;
+    src: url(../font/Gelion\ Bold.ttf);
+}
+
+@font-face {
+    font-family: Gelion-500;
+    src: url(../font/Gelion\ Medium.ttf);
+}
+
+@font-face {
+    font-family: Gelion-400;
+    src: url(../font/Gelion\ Regular.ttf);
+}
+
+@font-face {
+    font-family: red-hat-display-700;
+    src: url(../font/RedHatDisplayBold.ttf);
+}
+
+/* GENERAL*/
+
+* {
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+html {
+    font-family: Gelion-400;
+    font-size: 18px;
+}
+
+body{
+    background-color: #fff8f8;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li:hover{
+    color: #FA5652;
+}
+
+/* NAVBAR */
+
+
+header {
+    width: 80%;
+}
+
+header button {
+    background-color: transparent;
+    border-width: px;
+    color: #FF383D;
+    border-color: rgba(251, 76, 71, 1);
+}
+
+header button:hover{
+    color: white;
+    background-color: #FA5652;
+}
+
+header li {
+    color: #035755;
+    font-family: Gelion-400;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+header .active {
+    color: #FF383D;
+}
+
+header .active::after {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background-color: #FA5652;
+    position: absolute;
+    left: 55%;
+    transform: translateX(55%);
+    top: 10%;
+    border-radius: 50%;
+}
+
+
+/* BODY ONE */
+
+
+.body-1 {
+    margin-inline-start: 10%;
+}
+
+.body-1 img {
+    width: 54%;
+}
+
+.body-1 .text-1 {
+    margin-top: 3rem;
+
+}
+
+.body-1 .text-1 h3 {
+    font-family: red-hat-display-700;
+    font-size: 2.888rem;
+    line-height: 72.28px;
+}
+
+.body-1 .text-1 h5 {
+    font-family: red-hat-display-700;
+    font-size: 1.777rem;
+    line-height: 39.04px;
+    color: #FF383D;
+
+}
+
+.body-1 .text-1 p {
+    color: #4B4F51;
+    font-family: Gelion-400;
+    font-size: 1.333rem;
+    line-height: 45.6px;
+
+}
+
+.body-1 button {
+    color: white;
+    background-color: #FF383D;
+    font-family: Gelion-700;
+    font-size: 1.33rem;
+    line-height: 28.79px;
+    text-align: left;
+
+}
+
+
+/* BODY TWO */
+
+
+.body-2 .text-2 {
+    width: 40%;
+}
+
+.body-2 .text-2 h3 {
+    font-family: red-hat-display-700;
+    font-size: 2.888rem;
+    line-height: 72.28px;
+
+
+}
+
+.body-2 .text-2 h5 {
+    font-family: red-hat-display-700;
+    font-size: 1.777rem;
+    line-height: 39.04px;
+    color: #FF383D;
+
+}
+
+.body-2 .text-2 p {
+    color: #4B4F51;
+    font-family: Gelion-400;
+    font-size: 1.111rem;
+    line-height: 43px;
+    text-align: left;
+
+}
+
+.body-2 .text-2 button {
+    color: #FF383D;
+    font-family: Gelion-500;
+    font-size: 1.111rem;
+    line-height: 23.99px;
+    background-color: #FA565226;
+
+}
+
+/* MID-TEXT */
+
+.mid-text h5 {
+    font-family: red-hat-display-700;
+    font-size: 1.611rem;
+    line-height: 35.96px;
+    color: #FF383D;
+}
+
+.mid-text h3 {
+    font-family: red-hat-display-700;
+    font-size: 2.833rem;
+    line-height: 59.5px;
+
+}
+
+.mid-text p {
+    font-family: Gelion-400;
+    font-size: 1rem;
+    line-height: 38.7px;
+    color: #4B4F51;
+    margin-inline: auto;
+}
+
+.p1 {
+    width: 39%;
+}
+
+.p2 {
+    width: 48%;
+}
+
+.p3 {
+    width: 45%;
+}
+
+/*  THE THREE CARDS */
+
+.cards {
+    width: 80%;
+}
+
+.cards img {
+    width: 85%;
+    height: 249px;
+
+}
+
+.card {
+    box-shadow: 0px 35px 87px 0px #0000001C;
+    border-radius: 10px;
+    width: 500px;
+
+}
+
+.card-1 {
+    border-bottom: 6px solid #FA5652;
+
+}
+
+
+.card h3 {
+    font-family: Gelion-500;
+    font-size: 2rem;
+    line-height: 52.92px;
+
+}
+
+.card p {
+    font-family: Gelion-400;
+    font-size: 1rem;
+    line-height: 33.3px;
+    color: #4B4F51;
+    text-align-last: center;
+    width: 337px;
+    margin-inline: auto;
+
+}
+
+/* POSTER*/
+
+.poster {
+    width: 77%;
+    margin-bottom: 10%;
+
+}
+
+/* ADVICES */
+
+.advices img {
+    width: 40%;
+}
+
+.img-text h3 {
+    font-family: Gelion-500;
+    font-size: 2.611rem;
+    line-height: 69.09px;
+    color: #035755;
+
+    margin-inline-start: 2rem;
+}
+
+.img-text p {
+    font-family: Gelion-400;
+    font-size: 1rem;
+    line-height: 35px;
+    color: #4B4F51;
+
+    margin-inline-start: 6rem;
+
+}
+
+.img-text .first {
+    width: 80%;
+}
+
+.img-text .second {
+    width: 75%;
+}
+
+.img-text .third {
+    width: 76.4%;
+}
+
+.img-text .fourth {
+    width: 83%;
+}
+
+span {
+    font-family: red-hat-display-700;
+    font-size: 2.444rem;
+    line-height: 63.8px;
+    color: #FA5652;
+    background: #fa565221;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    padding: 0.5rem;
+
+}
+
+
+
+
+/* QUESTION */
+
+.question h3 {
+    font-family: Gelion-500;
+    font-size: 3.55rem;
+    line-height: 76.78px;
+    color: #0C6C44;
+
+}
+
+input {
+    border: 0px solid;
+    width: 790px;
+    height: 95px;
+    background-color: white;
+
+    box-shadow: 0px 35px 87px 0px #0000001C;
+    /* gradiant color in the background*/
+}
+
+.question button {
+    top: 13px;
+    right: 25%;
+    color: white;
+    background-color: #FF383D;
+    border-color: #FF383D;
+    font-family: Gelion-500;
+    font-size: 1.22rem;
+    line-height: 26.39px;
+    text-align: left;
+}
+
+/* FOOTER NAVBAR*/
+
+.facebook,
+.twitter,
+.vimeo {
+    color: #035755;
+    background-color: transparent;
+}
+
+footer ul,
+footer p {
+    font-family: Gelion-400;
+    font-size: 1.277rem;
+    line-height: 27.59px;
+    color: #00402E;
+}
+
+
+/* BACKGROUNDS */
+
+/* of body 2*/
+.back1 {
+    right: 0px;
+    top: 60%;
+}
+
+.back2 {
+    right: 5%;
+    top: 95%;
+}
+
+
+/* of 3 cards*/
+.back3 {
+    left: 1.5%;
+    top: 38%;
+    z-index: -1;
+}
+
+/* advices */
+
+.back4 {
+    height: 287px;
+    right: 75%;
+    top: 15%;
+}
+
+.back5 {
+    height: 324px;
+    right: -15%;
+    top: 79%;
+}
+
+.back6 {
+    height: 131px;
+    right: -13%;
+    top: 73%;
+}
+
+/* footer */
+
+.back7 {
+    right: 11%;
+    top: 790%;
+}
+
+.back8 {
+    top: 800%;
+    right: 0px;
+}
+
